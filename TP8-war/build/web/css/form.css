@@ -1,0 +1,85 @@
+body{
+    background-color: #fefefe;
+}
+
+.home{
+    background-color: #f2f2f2;
+    margin: 200px 200px;
+    border-radius: 500px;
+    text-align: center;
+}
+
+.home h1{
+    font-size: 50px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #4682B4;
+    padding: 25px 0;
+    margin: 0 200px;
+}
+
+form{
+    margin: 0 200px;
+    padding: 20px 20px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+
+input[type=text],input[type=password],input[type=number],select,textarea, input[type=email],input[type=date] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #4682B4;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 25%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #B0C4DE;
+}
+
+label{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #4682B4;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #B0C4DE;
+}
+
+.ins{
+    float: right;
+    font-size: 25px;
+}
+
+.cnx{
+    float: left;
+    font-size: 25px;
+    margin: 40px 0 0 0 ;
+}

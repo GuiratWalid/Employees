@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Inscription | Entreprise Java</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/form.css" />
+    </head>
+    <body>
+        <h1>Inscription</h1>
+        <br/><br/>
+        <form method="post" action="/TP8-war/Register">
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" id="nom" placeholder="Taper votre nom ..." required/>
+            <label for="prenom">Prenom</label>
+            <input type="text" name="prenom" id="prenom" placeholder="Taper votre prenom ..." required/>
+            <label for="adresse">Adresse</label>
+            <input type="text" name="adresse" id="adresse" placeholder="Taper votre adresse ..." required/>
+            <label for="datenais">Date de Naissance</label>
+            <input type="date" name="datenais" id="datenais" required/>
+            <label for="telephone">Téléphone</label>
+            <input type="text" name="telephone" id="telephone" placeholder="Taper votre téléphone ..." required/>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Taper votre email ..." required/>
+            <label for="service">Service d'attachement</label>
+            <input type="text" name="service" id="service" placeholder="Taper votre service d'attachement ..." required/>
+            <label for="login">Login</label>
+            <input type="text" name="login" id="login" placeholder="Taper votre login ..." required/>
+            <label for="motdepasse">Mot de passe</label>
+            <input type="password" name="motdepasse" id="motdepasse" placeholder="Taper votre mot de passe ..." required/>
+            <input type="submit" value="Inscription" />
+        </form>
+        <br/><br/>
+        <p><a href="./index.html">Retour à la page d'acceuil</a></p>
+    </body>
+</html>
